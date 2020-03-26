@@ -16,7 +16,7 @@ python --version
 
 brew tap AdoptOpenJDk/openjdk
 
-brew cask install adoptopenjdk8
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 
