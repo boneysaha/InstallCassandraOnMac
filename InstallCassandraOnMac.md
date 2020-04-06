@@ -26,6 +26,8 @@ echo $JAVA_HOME
 
 brew install cassandra
 
-cassandra -f 127.0.0.1
+cd /usr/local/cassandra/
+
+cassandra -f
 
 cqlsh 127.0.0.1
